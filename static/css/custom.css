@@ -1,0 +1,16 @@
+/* css custom styles */
+
+.animate-up:hover {
+    transform: translateY(-10px);
+    transition: transform 300ms ease-out;
+}
+ 
+.animate-up-small:hover {
+    transform: translateY(-4px);
+    transition: transform 300ms ease-out;
+}
+
+.animate-right:hover {
+    transform: translateX(10px); 
+    transition: transform 150ms ease-out;
+}
