@@ -114,9 +114,9 @@ Copyright (c) 2018 - ThemePaa
     SHARK.MasoNry = function () {
       var portfolioWork = $('.portfolio-content');
         $(portfolioWork).isotope({
-            resizable: false,
+            resizable: true,
             itemSelector: '.portfolio-item',
-            layoutMode: 'masonry',
+            layoutMode: 'fitRows',
             filter: '*'
           });
           //Filtering items on portfolio.html
@@ -200,14 +200,15 @@ Copyright (c) 2018 - ThemePaa
     // Window on Load
     $(window).on("load", function(){
       SHARK.WebLoad();
+      SHARK.MasoNry();
+
     });
 
     $(document).on("ready", function(){
-        SHARK.MasoNry(),
         SHARK.ClientSlider(),
         SHARK.MenuClose(),
         SHARK.BlogSlider(),
-        SHARK.Counter(),
+      // SHARK.Counter(),
         SHARK.ProgressBar(),
         SHARK.HeaderScroll(),
         SHARK.PopupVideo(),
@@ -216,7 +217,7 @@ Copyright (c) 2018 - ThemePaa
     });
 
     $(window).on("scroll", function(){
-        SHARK.Counter(),
+       //SHARK.Counter(),
         SHARK.ProgressBar(),
         SHARK.HeaderFixed();
     });
