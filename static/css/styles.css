@@ -240,6 +240,7 @@ section:hover .section-title p:after{
 	position: relative;
 }
 .header-nav .navbar-brand-zahlen {
+  font-size: 20px;
 	color: rgb(79, 143, 0);
 	font-weight: 800;
 	position: relative;
