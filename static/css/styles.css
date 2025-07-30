@@ -239,6 +239,11 @@ section:hover .section-title p:after{
 	font-weight: 800;
 	position: relative;
 }
+.header-nav .navbar-brand-zahlen {
+	color: rgb(79, 143, 0);
+	font-weight: 800;
+	position: relative;
+}
 .header-nav .navbar-brand span {
 	 width: 6px;
     height: 6px;

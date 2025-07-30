@@ -1,0 +1,39 @@
+::selection {
+  background-color: #4F8F00;
+  color: #fff;
+}
+::-moz-selection {
+  background-color: #4F8F00;
+  color: #fff;
+}
+
+.theme-color{
+  color: #4F8F00;
+}
+
+.section-title h2:after,
+.section-title p:after,
+.btn-theme,
+.theme-bg {
+  background: rgb(79, 143, 0);
+}
+
+.btn-twitter {
+  background: #00acee;
+}
+
+.btn-github {
+  background: #28a745;
+}
+
+.btn-linkedin {
+  background: #2867b2;
+}
+
+.btn-instagram {
+  background: #e1306c;
+}
+
+.btn-github {
+  background: #4F8F00;
+}
